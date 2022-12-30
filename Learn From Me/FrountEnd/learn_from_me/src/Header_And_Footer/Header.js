@@ -18,13 +18,16 @@ export default function Header() {
                 <Link href="#">About</Link>
               </li>
               <li>
-                <Link href="#">my work</Link>
+                <Link href="#">Discation</Link>
               </li>
               <li>
-                <Link href="#">disegn</Link>
+                <Link href="#">contect us</Link>
               </li>
               <li>
-                <Link href="#">dcontact</Link>
+                <Link href="#">Devloper Contect</Link>
+              </li>
+              <li>
+                <Link href="#">data creadite</Link>
               </li>
             </ul>
           </div>
