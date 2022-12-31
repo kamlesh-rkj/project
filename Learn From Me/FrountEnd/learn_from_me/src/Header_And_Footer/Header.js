@@ -13,7 +13,7 @@ export default function Header(){
         <div className="inmanu"><Link to="/home" className="inmanuLink">Discotion</Link></div>
         <div className="inmanu"><Link to="/home" className="inmanuLink">Authores</Link></div>
         <div className="inmanu"><Link to="/home" className="inmanuLink">contect us</Link></div>
-     
+        <div className="inmanu"><Link to="/home" className="inmanuLink">Devloper contect</Link></div>
       </div>
     </div>
     
