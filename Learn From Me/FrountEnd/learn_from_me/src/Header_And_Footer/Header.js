@@ -9,16 +9,17 @@ export default function Header() {
         <div id="header">
           <div id="manu">
           <button className="btn btn-primary" 
-                  type="button" 
+                   
                   data-bs-toggle="offcanvas"
                   data-bs-target="#manuofcanvas" 
                   aria-controls="manuofcanvas">
                    
                     </button>
-            <div
+                    <div
               className="offcanvas offcanvas-start"
+              
               data-bs-scroll="true"
-              tabindex="-1"
+              tabIndex="-1"
               id="manuofcanvas"
               aria-labelledby="manuheader"
             >
@@ -26,12 +27,7 @@ export default function Header() {
                 <h5 className="offcanvas-title" id="manuheader">
                   WELCOME TO ,LEARN FROM ME
                 </h5>
-                {/* <button
-                  type="button"
-                  className="btn-close text-reset"
-                  data-bs-dismiss="offcanvas"
-                  aria-label="Close"
-                ></button> */}
+               
               </div>
               <div className="offcanvas-body">
                 <div></div>
@@ -43,11 +39,14 @@ export default function Header() {
               </div>
             </div>
           </div>
+          <div id="accountbar">
+            <input type="text"></input>
+          </div>
           <div id="serchbar">
             <input type="text" id="search" />
             <button>Search</button>
           </div>
-          <div id="accountbar"></div>
+          
         </div>
       </section>
     </>

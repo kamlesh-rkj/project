@@ -4,7 +4,32 @@ export default function Footer(){
 
     return(
         <>
-            <h1>Footer</h1>
+            <section>
+                <div id="footer">
+                   <div>
+                    <img src=""></img>
+                    </div>
+
+                    <div>
+
+                        </div>
+                    <div>
+                        <table>
+                            <tr>
+                                <td>Email</td>
+                            </tr>
+                            <tr>
+                                <input type="email"/>
+                            </tr>
+                            <tr>
+                                <input type="submit"/>
+                            </tr>
+
+                        </table>
+                    </div>
+                     
+                </div>
+            </section>
         </>
     )
 }
