@@ -1,47 +1,55 @@
 import React from "react";
 import "./Header.css";
-import { Link } from "react-router-dom";
+
+
 export default function Header() {
   return (
     <>
-      <nav class="nav">
-        <div class="container">
-          <div class="logo">
-            <Link href="#">YourLogo</Link>
+      <section>
+        <div id="header">
+          <div id="manu">
+          <button className="btn btn-primary" 
+                  type="button" 
+                  data-bs-toggle="offcanvas"
+                  data-bs-target="#manuofcanvas" 
+                  aria-controls="manuofcanvas">
+                   
+                    </button>
+            <div
+              className="offcanvas offcanvas-start"
+              data-bs-scroll="true"
+              tabindex="-1"
+              id="manuofcanvas"
+              aria-labelledby="manuheader"
+            >
+              <div className="offcanvas-header">
+                <h5 className="offcanvas-title" id="manuheader">
+                  WELCOME TO ,LEARN FROM ME
+                </h5>
+                {/* <button
+                  type="button"
+                  className="btn-close text-reset"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button> */}
+              </div>
+              <div className="offcanvas-body">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                
+              </div>
+            </div>
           </div>
-          <div class="main_list" id="mainListDiv">
-            <ul>
-              <li>
-                <Link href="#">Home</Link>
-              </li>
-              <li>
-                <Link href="#">About</Link>
-              </li>
-              <li>
-                <Link href="#">Discation</Link>
-              </li>
-              <li>
-                <Link href="#">contect us</Link>
-              </li>
-              <li>
-                <Link href="#">Devloper Contect</Link>
-              </li>
-              <li>
-                <Link href="#">data creadite</Link>
-              </li>
-            </ul>
+          <div id="serchbar">
+            <input type="text" id="search" />
+            <button>Search</button>
           </div>
-          <div class="media_button">
-            <button class="main_media_button" id="mediaButton">
-              <span></span>
-              <span></span>
-              <span></span>
-            </button>
-          </div>
+          <div id="accountbar"></div>
         </div>
-      </nav>
-
-      <section class="home"></section>
+      </section>
     </>
   );
 }
